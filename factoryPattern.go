@@ -119,5 +119,7 @@ func CreateDatastore(conf map[string]string) (DataStore, error) {
 }
 
 func main() {
-
+	datastore, err := CreateDatastore(&map[string]string) {
+	"DATASTORE": "postgres",
+	"DATASTORE_POSTGRES_DSN": "dbname=factoriesaream"
 }
